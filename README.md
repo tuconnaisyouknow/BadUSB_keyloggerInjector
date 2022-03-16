@@ -53,11 +53,13 @@ cd BadUSB_keyloggerInjector
 pip install pyinstaller
 pyinstaller --onefile -w keylogger.py
 ```
-4. Replace link [here](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/keylogger.ino) with keylogger.exe link at line 93;
+4. [Upload](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/edit/main/README.md#how-to-set-a-link-for-wget-the-script-%EF%B8%8F) your files to download them;
 
-5. Add your code in the **BadUSB** by **Arduino software**;
+5. Replace link [here](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/keylogger.ino) with keylogger.exe link at line 93;
 
-6. Find a victim and enjoy !
+6. Add your code in the **BadUSB** by **Arduino software**;
+
+7. Find a victim and enjoy !
 ## Requirments for victim PC
 * Turn off caps lock.
 * Switch the keyboard layout to French (or adapt the code according to your layout).
