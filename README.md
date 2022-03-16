@@ -90,10 +90,4 @@ Remember to upload first keylogger.exe file to add its link to startSrcipt.ps1 f
 
 2. Upload startScript.ps1 and keylogger.exe file;
 
-3. Click on your file;
-
-4. Click on download button;
-
-5. Go on your browser download list (nameofyourbrowser://downloads);
-
-6. Copy the download link and put the link in [keylogger.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino)
+3. Follow this [tutorial](https://mangolassi.it/topic/19276/how-to-configure-a-onedrive-file-for-use-with-wget)
