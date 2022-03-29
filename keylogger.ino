@@ -14,6 +14,8 @@ void setup()
   Keyboard.begin();
 
   delay(2500);
+  
+  // Windows + D = minimize all apps
 
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('d');
