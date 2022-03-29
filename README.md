@@ -74,7 +74,7 @@ Remember to upload first keylogger.exe file to add its link into the startSrcipt
 
 4. You will get a link like this : https://dropbox.com/s/link/YOURFILE?dl=1;
 
-5. Now put these link in the [keylogger.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) file;
+5. Now put these link in the [.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) or [.txt](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.txt) file;
 ## Github
 1. Create a Github account [here](https://github.com/signup);
 
@@ -84,7 +84,7 @@ Remember to upload first keylogger.exe file to add its link into the startSrcipt
 
 4. Go to your file page and click on RAW button;
 
-5. Copy the RAW page link and put it in the [keylogger.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) file;
+5. Copy the RAW page link and put it in the [.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) or [.txt](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.txt) file;
 ## One Drive
 1. Create a One Drive account [here](https://signup.live.com/signup);
 
@@ -92,4 +92,4 @@ Remember to upload first keylogger.exe file to add its link into the startSrcipt
 
 3. Follow this [tutorial](https://mangolassi.it/topic/19276/how-to-configure-a-onedrive-file-for-use-with-wget);
 
-4. Put the link you got in the [keylogger.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) file;
+4. Put the link you got in the [.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) or [.txt](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.txt) file;
