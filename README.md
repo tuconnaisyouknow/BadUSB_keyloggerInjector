@@ -57,22 +57,22 @@ pyinstaller --onefile -w keylogger.py
 
 5. Replace link [here](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/keylogger.ino) with keylogger.exe link at line 93;
 
-6. Put the .ino or .txt script in your BadUSB;
+6. Put the .ino or .txt file in your BadUSB;
 
 7. Find a victim and enjoy !
 ## Requirments for victim PC
 * Turn off caps lock.
 * Switch the keyboard layout to French (or adapt the code according to your layout).
 # How to set a link for wget the script ⬇️
-Remember to upload first keylogger.exe file to add its link to startSrcipt.ps1 file.
+Remember to upload first keylogger.exe file to add its link into the startSrcipt.ps1 file.
 ## Dropbox
 1. Create a dropbox account [here](https://www.dropbox.com);
 
-2. Upload startScript.ps1 and keylogger.exe;
+2. Upload your file;
 
-3. Copy the link of the file and change ?dl=0 by ?raw=1;
+3. Copy the link of the file and change ?dl=0 by ?dl=1;
 
-4. The link will be like this : https://dropbox.com/s/link/startScript.ps1?raw=1;
+4. You will get a link like this : https://dropbox.com/s/link/YOURFILE?dl=1;
 
 5. Now put these link in the [keylogger.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) file;
 ## Github
@@ -80,14 +80,16 @@ Remember to upload first keylogger.exe file to add its link to startSrcipt.ps1 f
 
 2. Create a public repository;
 
-3. Upload ciaoV2.ps1 and keylogger.exe;
+3. Upload your file;
 
-4. Go to the startScript.ps1 page and click on RAW button;
+4. Go to your file page and click on RAW button;
 
-5. Copy these link of the RAW page and put it in the [keylogger.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) file;
+5. Copy the RAW page link and put it in the [keylogger.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) file;
 ## One Drive
 1. Create a One Drive account [here](https://signup.live.com/signup);
 
-2. Upload startScript.ps1 and keylogger.exe file;
+2. Upload your file;
 
-3. Follow this [tutorial](https://mangolassi.it/topic/19276/how-to-configure-a-onedrive-file-for-use-with-wget)
+3. Follow this [tutorial](https://mangolassi.it/topic/19276/how-to-configure-a-onedrive-file-for-use-with-wget);
+
+4. Put the link you got in the [keylogger.ino](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/BadUSB_keylogger.ino) file;
