@@ -3,7 +3,7 @@
 Everything in this repository is **strictly** for educational purposes. Notice **I am not responsible** for stolen data. **You are responsible** for your actions using developed script for **BadUSB**.
 # About ℹ️
 This **script** allows you to inject an invsible **keylogger** which run on **Windows** startup. To do this i used this [keylogger script](https://github.com/x4nth055/pythoncode-tutorials/tree/master/ethical-hacking/keylogger).
-### NB n°1
+### NB n°1 (for arduino BadUSB)
 Sometimes, you will see something like this : 
 ``` 
 Keyboard.press(KEY_LEFT_CTRL);
@@ -29,7 +29,7 @@ You can customize the **delay** according to the speed in which you plug the **B
 ## Requirments
 1. Have a **BadUSB**.
 
-2. Install **Arduino software** [here](https://www.arduino.cc/en/software);
+2. Install **Arduino software** [here](https://www.arduino.cc/en/software) (if you have a BadUSB based on Arduino);
 
 3. Have a **Gmail** account and enable **less secure app** [here](https://www.google.com/settings/security/lesssecureapps);
 
@@ -57,7 +57,7 @@ pyinstaller --onefile -w keylogger.py
 
 5. Replace link [here](https://github.com/tuconnaisyouknow/BadUSB_keyloggerInjector/blob/main/keylogger.ino) with keylogger.exe link at line 93;
 
-6. Add your code in the **BadUSB** by **Arduino software**;
+6. Put the .ino or .txt script in your BadUSB;
 
 7. Find a victim and enjoy !
 ## Requirments for victim PC
