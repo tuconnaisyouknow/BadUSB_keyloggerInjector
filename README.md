@@ -36,6 +36,8 @@ You can customize the **delay** according to the speed in which you plug the **B
 4. Have latest python version installed on your PC;
 
 5. Have latest pip version installed on your PC;
+
+6. Have a victim with **Windows OS** installed in his PC;
 ## Install
 1. Download this repository;
 
