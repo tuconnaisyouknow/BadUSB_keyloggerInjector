@@ -40,6 +40,20 @@ When you plug the BadUSB in a PC you  have to wait for the caps lock to flash to
 5. Have latest pip version installed on your PC;
 
 6. Have a victim with **Windows OS** installed in his PC;
+# Install latest version of Python and pip
+## Python
+1. Download latest python version (installer 64-bit or 32-bit) [here](https://www.python.org/downloads/windows/);
+2. Now run the installer
+3. Select "Add python.exe to PATH" checkbox and then click on "install now";
+## Pip
+1. Launch a powershell prompt and run the following command to download get-pip.py :
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+```
+2. Then run the following command to install pip :
+```
+python get-pip.py
+```
 ## Install
 1. Download this repository;
 
