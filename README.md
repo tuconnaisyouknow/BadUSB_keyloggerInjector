@@ -1,4 +1,6 @@
-# BadUSB_passStealer
+# BadUSB_keyloggerInjector
+> [!WARNING]
+> This repository hasn't been maintained for a long time, so if something doesn't work, open an issue and let me know what's wrong.
 # Warning ⚠️
 Everything in this repository is **strictly** for educational purposes. Notice **I am not responsible** for stolen data. **You are responsible** for your actions using developed script for **BadUSB**.
 # About ℹ️
